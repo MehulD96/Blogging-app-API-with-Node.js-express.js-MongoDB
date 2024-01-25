@@ -29,8 +29,8 @@ install nde modules
 
 ## Routes
 
-- .get("/",getAllUser);
-- .post("/signup", createUser);
-- .post("/login" ,loginUser);
-- .delete("/delete/:id", loggedInUserOnly,- deleteUser);
-- .put("/update/:id", loggedInUserOnly,upadateUser);
+-  to get all user in the database -> .get("/",getAllUser);
+- to signup a user -> .post("/signup", createUser);
+- to login a user -> .post("/login" ,loginUser);
+- to delete a user -> .delete("/delete/:id", loggedInUserOnly,- deleteUser);
+- to update an existing user -> .put("/update/:id", loggedInUserOnly,upadateUser);
